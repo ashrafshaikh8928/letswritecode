@@ -96,3 +96,11 @@ body{
     padding: 10px 0;
 }
 
+@media (max-width:768px) {
+    .main .section_1{
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+    }
+}
+
